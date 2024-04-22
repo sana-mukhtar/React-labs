@@ -1,11 +1,11 @@
-import { Button, Container } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 
 const Profile = () => {
   return (
     <Container maxWidth="lg" sx={{ mt: "20vh" }}>
-      <Button variant="contained" size="large">
-        User Info Page
-      </Button>
+      <Typography variant="h6" color="disable">
+        Sorry , there is no user info :(
+      </Typography>
     </Container>
   );
 };
