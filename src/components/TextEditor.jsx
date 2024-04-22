@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 const TextEditor = () => {
   const editor = useRef(null);
   const [content, setContent] = useState("");
+  // eslint-disable-next-line no-unused-vars
   const [unsavedChanges, setUnsavedChanges] = useState(false);
 
   useEffect(() => {
